@@ -52,3 +52,8 @@ public class Main extends Activity {
         webview.loadUrl("http://www.google.com");
     }
 }
+
+
+
+<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+<uses-permission android:name="android.permission.INTERNET"/>
